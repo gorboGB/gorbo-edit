@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新店安坑文書處理與排版工作室 | 專業手稿建檔、錄音逐字稿、Word/Excel編排</title>
+    <!-- Tailwind CSS CDN -->
+    <script type="text/javascript" nonce="f689698a9e1948678002f4ce690" src="//local.adguard.org?ts=1794798201737&amp;type=content-script&amp;dmn=contribution.usercontent.google.com&amp;url=https%3A%2F%2Fcontribution.usercontent.google.com%2Fdownload%3Fc%3DCgxiYXJkX3N0b3JhZ2USUBINcmVzcG9uc2VfZGF0YRo_CjBhYmQzNjYxZjg0YjZjZjVmMDAwNjYwNWNjMmY4NDFhMDAxNTZiZGE4NzYzNWNlMGYSCxIHEP7jlrGBFxgB%26filename%3Dindex.html%26opi%3D103135050&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1&amp;stealth=1&amp;st-dnt"></script><script type="text/javascript" nonce="f689698a9e1948678002f4ce690" src="//local.adguard.org?ts=1794798201737&amp;name=AdGuard%20Extra&amp;type=user-script"></script><script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- 頂部導覽列 -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    文
+                </div>
+                <div>
+                    <span class="text-lg font-bold tracking-tight text-slate-900 block leading-tight">安坑專業文書排版工作室</span>
+                    <span class="text-xs text-slate-500">新店區 / 遠端全台接案</span>
+                </div>
+            </div>
+            <!-- 導覽連結 -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#services" class="hover:text-indigo-600 transition">1. 接案項目</a>
+                <a href="#software" class="hover:text-indigo-600 transition">2. 使用軟體</a>
+                <a href="#pricing" class="hover:text-indigo-600 transition">3. 收費基準</a>
+                <a href="#coverage" class="hover:text-indigo-600 transition">4. 服務範圍</a>
+            </nav>
+            <div class="flex items-center space-x-3">
+                <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm transition">
+                    立即諮詢
+                </a>
+                <!-- 手機版漢堡選單按鈕 -->
+                <button id="menu-btn" class="md:hidden p-2 text-slate-600 hover:text-indigo-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+        <!-- 手機版下拉選單 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2">
+            <a href="#services" class="block py-2 text-slate-600 font-medium hover:text-indigo-600">1. 接案項目</a>
+            <a href="#software" class="block py-2 text-slate-600 font-medium hover:text-indigo-600">2. 使用軟體</a>
+            <a href="#pricing" class="block py-2 text-slate-600 font-medium hover:text-indigo-600">3. 收費基準</a>
+            <a href="#coverage" class="block py-2 text-slate-600 font-medium hover:text-indigo-600">4. 服務範圍</a>
+            <a href="#contact" class="block py-2 text-indigo-600 font-bold">立即諮詢</a>
+        </div>
+    </header>
+
+    <!-- 主視覺 Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-indigo-900 via-slate-900 to-slate-900 text-white py-24 lg:py-32">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#e0e7ff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 mb-6">
+                ✨ 專業文件處理・嚴謹細緻・快速交件
+            </span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-6">
+                讓繁雜的文件與手稿，<br class="hidden sm:inline">變身為<span class="text-indigo-400">清晰完美的專業文檔</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 font-light">
+                專注於手稿/錄音檔文字建檔、Word/Excel 書面編排。新店區安坑在地深耕，亦接受全台線上遠端委託。
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-indigo-500/25 transition">
+                    填寫需求與估價
+                </a>
+                <button onclick="copyToClipboard('gorbo', 'LINE ID')" class="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold rounded-xl transition flex items-center justify-center space-x-2">
+                    <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.48 5.43 3.81 7.11-.12.87-.64 3.16-.73 3.55-.13.56.21 1.09.77.93 2.11-.6 4.7-1.85 5.92-2.5 3.7.67 7.04-1.39 8.75-4.5C21.43 14.7 22 12.92 22 11c0-4.97-4.48-9-10-9z"/></svg>
+                    <span>複製 LINE ID: gorbo</span>
+                </button>
+            </div>
+            <!-- 快速聯絡列 -->
+            <div class="mt-12 pt-8 border-t border-slate-800 flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+                <div class="flex items-center space-x-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>接案狀態：正常接案中</span>
+                </div>
+                <div>💬 LINE ID: <strong class="text-white">gorbo</strong></div>
+                <div>📧 Email: <a href="mailto:gorbo32@gmail.com" class="text-indigo-400 hover:underline">gorbo32@gmail.com</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. 接案項目 -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-indigo-600 font-bold text-sm tracking-widest uppercase">SECTION 01</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-4">接案服務項目</h2>
+                <p class="text-slate-600">提供細心、精準、符合您格式要求的專業文書處理服務</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- 項目 1 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center font-bold text-2xl mb-6 shadow-sm">
+                            📝
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">1. 手稿／錄音文字建檔與輸入</h3>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            將您的實體手稿、筆記、掃描檔案或各種語音/錄音檔，精準轉換為結構清晰、排版整齊的數位文字檔案。
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-indigo-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>手稿／紙本轉打</strong>：一般手寫筆記、印刷體、書籍文件掃描轉 Word。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-indigo-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>錄音檔聽打逐字稿</strong>：會議錄音、訪談、演講音檔轉成逐字稿，可加選時間碼標記。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-indigo-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>純 Excel 數據建檔</strong>：問卷資料、名單、表格數據手動或批量建檔輸入。</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center justify-center w-full py-3 bg-white border border-indigo-200 text-indigo-600 font-semibold rounded-xl hover:bg-indigo-50 transition">
+                        委託文字建檔 &rarr;
+                    </a>
+                </div>
+
+                <!-- 項目 2 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center font-bold text-2xl mb-6 shadow-sm">
+                            📊
+                        </div>
+                        <h3 class="text-2xl font-bold text-slate-900 mb-3">2. 書面編排與表格製作</h3>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            幫您的凌亂文件進行專業的視覺與格式排版，提升報告、合約、企劃書與數據表格的專業質感。
+                        </p>
+                        <ul class="space-y-3 mb-8 text-sm text-slate-700">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-emerald-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>Word 文件排版</strong>：統一字體行距、段落縮排、設定頁首頁尾、自動目錄及圖表編號。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-emerald-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>Excel 表格設計</strong>：美化表格外觀、建立對齊格式、套用基礎加總與排序公式。</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 text-emerald-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                <span><strong>排版美化微調</strong>：修正雜亂格式、校對錯別字與標點符號不一致問題。</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="inline-flex items-center justify-center w-full py-3 bg-white border border-emerald-200 text-emerald-700 font-semibold rounded-xl hover:bg-emerald-50 transition">
+                        委託書面編排 &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 使用軟體 -->
+    <section id="software" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-indigo-600 font-bold text-sm tracking-widest uppercase">SECTION 02</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-4">擅長使用文件軟體</h2>
+                <p class="text-slate-600">熟練運用 Microsoft Office 核心工具，確保檔案相容性與最高品質</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Word -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 flex items-start space-x-6">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-3xl shadow-md flex-shrink-0">
+                        W
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Microsoft Word</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            精通長篇報告、合約書、手稿逐字建檔與複雜排版。熟練掌握樣式設定、目錄生成、圖表標號及頁碼調整。
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-lg">文字建檔</span>
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-lg">論文/報告排版</span>
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-lg">自動目錄</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excel -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 flex items-start space-x-6">
+                    <div class="w-16 h-16 bg-emerald-600 text-white rounded-2xl flex items-center justify-center font-black text-3xl shadow-md flex-shrink-0">
+                        X
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Microsoft Excel</h3>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+                            擅長數據建檔、清單整理、表格格式美化與基礎公式運用，讓您的資料整齊易讀、條理分明。
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded-lg">數據輸入</span>
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded-lg">表格排版</span>
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded-lg">基礎函數應用</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 收費基準 -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-indigo-600 font-bold text-sm tracking-widest uppercase">SECTION 03</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-4">公開透明的收費基準</h2>
+                <p class="text-slate-600">所有案件皆依工作繁複度與字數/分鐘數合理報價，絕不中途亂加價</p>
+            </div>
+
+            <!-- 收費表格區塊 -->
+            <div class="space-y-12 max-w-4xl mx-auto">
+                <!-- 1. 手稿與文字建檔 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="bg-indigo-900 text-white px-6 py-4 font-bold text-lg flex items-center justify-between">
+                        <span>1. 手稿／紙本文字建檔與輸入</span>
+                        <span class="text-xs bg-indigo-700 px-3 py-1 rounded-full font-normal">以完稿 Word 字數計價</span>
+                    </div>
+                    <div class="p-6 overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="border-b border-slate-200 text-slate-500 text-sm">
+                                    <th class="pb-3 font-semibold">服務細項</th>
+                                    <th class="pb-3 font-semibold">建議定價</th>
+                                    <th class="pb-3 font-semibold">計價說明</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm text-slate-700">
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">印刷體 / 清晰照片轉打</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 0.3 / 字</td>
+                                    <td class="py-3 text-slate-500">書籍、合約、列印文件掃描檔（含基本標點校對）</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">一般手寫稿建檔</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 0.5 / 字</td>
+                                    <td class="py-3 text-slate-500">字跡清晰之筆記、會議草稿、問卷謄打</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">潦草 / 專業術語手寫稿</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 0.8 起 / 字</td>
+                                    <td class="py-3 text-slate-500">醫療、法律、工程專有名詞，或字跡較難辨識者</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">純 Excel 數據/名單建檔</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 1.5 起 / 筆</td>
+                                    <td class="py-3 text-slate-500">依欄位多寡報價（例如：姓名+電話+地址為一筆）</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 2. 錄音檔聽打逐字稿 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="bg-indigo-900 text-white px-6 py-4 font-bold text-lg flex items-center justify-between">
+                        <span>2. 錄音檔聽打逐字稿</span>
+                        <span class="text-xs bg-indigo-700 px-3 py-1 rounded-full font-normal">以音檔總長度（分鐘）計價</span>
+                    </div>
+                    <div class="p-6 overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="border-b border-slate-200 text-slate-500 text-sm">
+                                    <th class="pb-3 font-semibold">服務細項</th>
+                                    <th class="pb-3 font-semibold">建議定價</th>
+                                    <th class="pb-3 font-semibold">計價說明</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm text-slate-700">
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">一般中文清晰對話</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 20 / 分鐘</td>
+                                    <td class="py-3 text-slate-500">一對一訪談、單人演講、音質清晰無明顯雜音</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">多人會議 / 略含雜音</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 30 / 分鐘</td>
+                                    <td class="py-3 text-slate-500">3人以上交叉發言（標註發言人）、環境音較大</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">專業領域 / 中英夾雜</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 45 起 / 分鐘</td>
+                                    <td class="py-3 text-slate-500">含大量英文專有名詞、法律訴訟或醫學研討內容</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">加值服務：時間碼標記</td>
+                                    <td class="py-3 text-indigo-600 font-bold">+ NT$ 5 / 分鐘</td>
+                                    <td class="py-3 text-slate-500">每隔幾分鐘或每次換人發言標註 [00:00:00]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 3. 書面編排與表格製作 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <div class="bg-indigo-900 text-white px-6 py-4 font-bold text-lg flex items-center justify-between">
+                        <span>3. 書面編排與表格製作</span>
+                        <span class="text-xs bg-indigo-700 px-3 py-1 rounded-full font-normal">Word / Excel 專業排版</span>
+                    </div>
+                    <div class="p-6 overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="border-b border-slate-200 text-slate-500 text-sm">
+                                    <th class="pb-3 font-semibold">服務細項</th>
+                                    <th class="pb-3 font-semibold">建議定價</th>
+                                    <th class="pb-3 font-semibold">計價說明</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm text-slate-700">
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">Word 基礎格式排版</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 60 / 頁</td>
+                                    <td class="py-3 text-slate-500">統一字體行距、段落縮排、頁碼、頁首頁尾</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">Word 進階報告/論文排版</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 100 起 / 頁</td>
+                                    <td class="py-3 text-slate-500">自動生成目錄、圖表編號、多層級標題、複雜版面</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium text-slate-900">Excel 表格繪製與整理</td>
+                                    <td class="py-3 text-indigo-600 font-bold">NT$ 500 起 / 份</td>
+                                    <td class="py-3 text-slate-500">依表格複雜度報價（含基礎函數加總、格式美化）</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 4. 服務條款與加值說明 -->
+                <div class="bg-indigo-50 border border-indigo-200 rounded-2xl p-6 sm:p-8">
+                    <h3 class="text-lg font-bold text-indigo-900 mb-4 flex items-center">
+                        <svg class="w-5 h-5 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span>4. 服務條款與重要備註</span>
+                    </h3>
+                    <ul class="grid sm:grid-cols-2 gap-4 text-sm text-slate-700">
+                        <li class="bg-white p-4 rounded-xl border border-indigo-100 shadow-xs">
+                            <strong>最低開案金額</strong>：單筆案件最低消費 <span class="text-indigo-600 font-bold">NT$ 500</span>。
+                        </li>
+                        <li class="bg-white p-4 rounded-xl border border-indigo-100 shadow-xs">
+                            <strong>在地免運費</strong>：新店區／新店區安坑地區可預約面交收件，免收車馬費。
+                        </li>
+                        <li class="bg-white p-4 rounded-xl border border-indigo-100 shadow-xs">
+                            <strong>急件處理費</strong>：24小時內交件者加收 <span class="text-indigo-600 font-bold">50%</span>；48小時內交件加收 <span class="text-indigo-600 font-bold">30%</span>。
+                        </li>
+                        <li class="bg-white p-4 rounded-xl border border-indigo-100 shadow-xs">
+                            <strong>修改保障</strong>：交件後提供 <span class="text-indigo-600 font-bold">3天內免費微調2次</span>（限原稿範圍內）。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 服務範圍 -->
+    <section id="coverage" class="py-20 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-indigo-600 font-bold text-sm tracking-widest uppercase">SECTION 04</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 mb-4">服務範圍與聯絡方式</h2>
+                <p class="text-slate-600">新店區安坑在地深耕，同步支援全台線上遠端數位協作</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+                <!-- 在地服務 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-xl mb-4">
+                        📍
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">新店區 / 新店安坑在地服務</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        工作室位於新北市新店區安坑地區。若您有紙文書、手稿需要面交收件或初步諮詢，歡迎約定安坑在地指定地點，免收車馬費，溝通更安心。
+                    </p>
+                    <div class="text-xs bg-indigo-50 text-indigo-700 px-3 py-2 rounded-lg font-medium">
+                        涵蓋：新店市區、安康路沿線、安坑一號道路周邊、玫瑰中國城、台北小城等社區。
+                    </div>
+                </div>
+
+                <!-- 遠端服務 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center font-bold text-xl mb-4">
+                        💻
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">全台線上遠端協作</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        如果您身處外縣市，或習慣使用數位檔案傳遞，完全不受地域限制！可直接透過 LINE 傳送照片、掃描檔或音檔，完稿後回傳 Word / Excel 檔案。
+                    </p>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <div class="flex items-center justify-between bg-slate-50 px-3 py-2 rounded-lg border border-slate-200">
+                            <span>💬 LINE ID: <strong>gorbo</strong></span>
+                            <button onclick="copyToClipboard('gorbo', 'LINE ID')" class="text-xs text-indigo-600 hover:underline font-bold">一鍵複製</button>
+                        </div>
+                        <div class="flex items-center justify-between bg-slate-50 px-3 py-2 rounded-lg border border-slate-200">
+                            <span>📧 Email: <a href="mailto:gorbo32@gmail.com" class="text-indigo-600 hover:underline font-bold">gorbo32@gmail.com</a></span>
+                            <a href="mailto:gorbo32@gmail.com" class="text-xs text-indigo-600 hover:underline font-bold">直接寄信</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 互動式洽詢與試算區塊 -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-slate-900 to-indigo-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="text-center max-w-xl mx-auto mb-10">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold mb-3">線上需求試算與洽詢表單</h2>
+                    <p class="text-slate-300 text-sm">請填寫您的案子類型與預估數量，系統將自動計算參考金額，並可直接複製格式發送至 LINE！</p>
+                </div>
+
+                <!-- 試算小工具 -->
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-6 mb-8 space-y-4">
+                    <h3 class="text-indigo-300 font-bold text-sm tracking-wider uppercase">⚡ 快速費用預估</h3>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1">選擇服務項目</label>
+                            <select id="calc-type" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-400">
+                                <option value="0.3">手稿建檔 - 印刷體/清晰照片 (NT$0.3/字)</option>
+                                <option value="0.5" selected>手稿建檔 - 一般手寫筆記 (NT$0.5/字)</option>
+                                <option value="0.8">手稿建檔 - 潦草/專業術語 (NT$0.8/字起)</option>
+                                <option value="1.5">純 Excel 數據建檔 (NT$1.5/筆)</option>
+                                <option value="20">錄音逐字稿 - 一般中文清晰 (NT$20/分鐘)</option>
+                                <option value="30">錄音逐字稿 - 多人會議/略有雜音 (NT$30/分鐘)</option>
+                                <option value="45">錄音逐字稿 - 專業/中英夾雜 (NT$45/分鐘)</option>
+                                <option value="60">Word 基礎格式排版 (NT$60/頁)</option>
+                                <option value="100">Word 進階報告/論文排版 (NT$100/頁)</option>
+                                <option value="500">Excel 表格製作 (NT$500/份起)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1" id="unit-label">輸入字數 / 分鐘數 / 頁數 / 份數</label>
+                            <div class="flex space-x-2">
+                                <input type="number" id="calc-qty" value="1000" min="1" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-indigo-400">
+                                <button type="button" onclick="calculatePrice()" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl text-sm transition">試算</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-white/10 text-sm">
+                        <span class="text-slate-300">預估參考金額（未稅）：</span>
+                        <span id="calc-result" class="text-2xl font-black text-emerald-400">NT$ 500 起</span>
+                    </div>
+                    <div class="text-right">
+                        <button type="button" onclick="applyToForm()" class="text-xs text-indigo-300 hover:text-white underline">＋ 將此項目與試算結果帶入下方洽詢單</button>
+                    </div>
+                </div>
+
+                <!-- 聯絡表單 -->
+                <form id="inquiry-form" onsubmit="generateInquiry(event)" class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1">您的稱呼 / 單位名稱</label>
+                            <input type="text" id="client-name" required placeholder="例如：王先生 / XX公司" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400">
+                        </div>
+                        <div>
+                            <label class="block text-xs text-slate-300 mb-1">您的聯絡方式 (LINE ID 或 電話)</label>
+                            <input type="text" id="client-contact" required placeholder="例如：LINE: user123 或 0912..." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-slate-300 mb-1">需求內容說明 (案件細節、字數/頁數、交件期限等)</label>
+                        <textarea id="client-details" rows="4" required placeholder="請簡單描述您的需求，例如：有一份大約 3000 字的手寫會議記錄需要轉打成 Word，希望 3 天內完成..." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400"></textarea>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <button type="submit" class="flex-1 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg transition text-center">
+                            📋 一鍵複製整齊洽詢單 (貼至 LINE)
+                        </button>
+                        <a id="email-btn" href="#" onclick="sendEmail(event)" class="sm:w-auto px-6 py-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold rounded-xl transition text-center flex items-center justify-center space-x-2">
+                            <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <span>直接透過 Email 寄出</span>
+                        </a>
+                    </div>
+                </form>
+
+                <!-- 複製成功提示 Toast -->
+                <div id="toast" class="fixed bottom-6 right-6 bg-emerald-600 text-white px-6 py-3 rounded-xl shadow-2xl transform translate-y-20 opacity-0 transition-all duration-300 z-55 flex items-center space-x-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <span id="toast-msg">已成功複製！</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 text-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <span class="text-white font-bold text-base block mb-1">安坑專業文書排版工作室</span>
+                <p class="text-xs text-slate-500">新北市新店區安坑地區・手稿逐字建檔與 Word/Excel 書面編排專門</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 text-xs">
+                <span>LINE ID: <strong class="text-slate-300">gorbo</strong></span>
+                <span>Email: <a href="mailto:gorbo32@gmail.com" class="text-indigo-400 hover:underline">gorbo32@gmail.com</a></span>
+            </div>
+            <div class="text-xs text-slate-600 text-center md:text-right">
+                &copy; 2026 安坑專業文書排版工作室. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript 互動邏輯 -->
+    <script>
+        // 手機版選單切換
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // 複製到剪貼簿功能
+        function copyToClipboard(text, label) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast(`已成功複製 ${label}: ${text}`);
+            }).catch(err => {
+                console.error('複製失敗', err);
+            });
+        }
+
+        // 顯示 Toast 提示
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            toastMsg.textContent = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        // 試算邏輯
+        function calculatePrice() {
+            const unitPrice = parseFloat(document.getElementById('calc-type').value);
+            const qty = parseFloat(document.getElementById('calc-qty').value) || 0;
+            let rawTotal = unitPrice * qty;
+
+            // 最低開案 500 元限制
+            let finalTotal = rawTotal < 500 ? 500 : Math.round(rawTotal);
+            document.getElementById('calc-result').textContent = `NT$ ${finalTotal.toLocaleString()} 起`;
+            return finalTotal;
+        }
+
+        // 將試算帶入表單
+        function applyToForm() {
+            const selectElem = document.getElementById('calc-type');
+            const selectedText = selectElem.options[selectElem.selectedIndex].text;
+            const qty = document.getElementById('calc-qty').value;
+            const total = document.getElementById('calc-result').textContent;
+
+            const detailsBox = document.getElementById('client-details');
+            detailsBox.value = `【預估項目】：${selectedText}\n【數量】：${qty}\n【試算金額】：${total}\n\n【備註需求】：`;
+            showToast('已將試算項目帶入洽詢單！');
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // 生成洽詢單並複製
+        function generateInquiry(e) {
+            e.preventDefault();
+            const name = document.getElementById('client-name').value;
+            const contact = document.getElementById('client-contact').value;
+            const details = document.getElementById('client-details').value;
+
+            const inquiryText = `您好，我想委託文書案件：\n--------------------------------\n👤 稱呼/單位：${name}\n📱 聯絡方式：${contact}\n📝 需求內容：\n${details}\n--------------------------------\n再請您協助確認與報價，謝謝！`;
+
+            navigator.clipboard.writeText(inquiryText).then(() => {
+                showToast('已成功複製完整洽詢單！可直接貼給 LINE (gorbo)');
+            });
+        }
+
+        // 直接透過 Email 寄出
+        function sendEmail(e) {
+            const name = document.getElementById('client-name').value || '未填寫稱呼';
+            const contact = document.getElementById('client-contact').value || '未填寫聯絡方式';
+            const details = document.getElementById('client-details').value || '未填寫需求';
+
+            const subject = encodeURIComponent(`【文書接案洽詢】來自 ${name}`);
+            const body = encodeURIComponent(`您好：\n\n以下是我的接案需求洽詢：\n\n【稱呼/單位】：${name}\n【聯絡方式】：${contact}\n【需求內容】：\n${details}\n\n再請您協助評估與回覆，謝謝！`);
+
+            this.href = `mailto:gorbo32@gmail.com?subject=${subject}&body=${body}`;
+        }
+    </script>
+</body>
+</html>
